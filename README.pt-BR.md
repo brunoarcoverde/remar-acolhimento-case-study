@@ -1,4 +1,5 @@
 # REMAR Acolhimento
+[🇺🇸 English](README.md) | [🇧🇷 Português](README.pt-BR.md)
 
 ### Plataforma de Gestão de Acolhimento Social | Estudo de Caso Técnico
 
