@@ -1,4 +1,5 @@
 # REMAR Acolhimento
+[🇺🇸 English](README.md) | [🇧🇷 Português](README.pt-BR.md)
 
 ### Social Care Management Platform | Technical Case Study
 
