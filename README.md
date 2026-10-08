@@ -1,174 +1,148 @@
 # REMAR Acolhimento
+
 [🇺🇸 English](README.md) | [🇧🇷 Português](README.pt-BR.md)
 
-### Social Care Management Platform | Technical Case Study
+### Full-Stack Social Care Management Platform | Software Engineering Case Study
 
-A full-stack platform developed for **Remar Brasil** to support social care operations and management across web and mobile environments.
-
-**Role:** Software Engineer | Sole Full-Stack Developer  
 **Organization:** Associação Remar do Brasil (Remar Brasil)  
-**Platforms:** Web • Android • iOS  
-**Status:** 🚧 Active Development
+**Role:** Software Engineer | Sole Full-Stack Developer  
+**Product:** REMAR Acolhimento  
+**Infrastructure:** DigitalOcean  
+**Development:** Active product evolution
 
----
+## Overview
 
-## About the Project
+REMAR Acolhimento is a full-stack software platform developed for Associação Remar do Brasil to support social care operations, residential care management, and institutional workflows.
 
-**REMAR Acolhimento** is a real-world software platform being developed for Remar Brasil, a Brazilian nonprofit organization.
+The platform centralizes operational information, improves traceability, and provides role-based access to sensitive records across organizational units.
 
-The platform is designed to centralize and support operational and care-management workflows through a modern, secure, and maintainable application ecosystem.
+This repository presents a technical case study of the engineering work behind the platform. The application source code is proprietary and is not published here.
 
-This repository is a **technical case study and portfolio project** documenting the engineering behind the platform.
+## My Role
 
-The production source code is proprietary and is not publicly distributed.
+I am the sole human full-stack developer responsible for the platform's software engineering, including:
 
----
+- Backend API development and business logic
+- Frontend architecture and user interfaces
+- Relational database design and migrations
+- Authentication and role-based authorization
+- Integration of operational modules
+- Automated testing and technical validation
+- Cloud deployment and infrastructure configuration
+- Ongoing product development and maintenance
 
-## 👨‍💻 My Role
+AI-assisted development tools, including Cursor and ChatGPT, are used throughout the engineering workflow. I remain responsible for technical decisions, implementation review, integration, and validation.
 
-### Software Engineer | Sole Full-Stack Developer
+## Technology Stack
 
-I am responsible for the end-to-end technical implementation of REMAR Acolhimento, serving as the project's sole full-stack developer.
+| Layer | Technologies |
+|---|---|
+| Frontend | Vue 3, Quasar 2, JavaScript, Vite |
+| Backend | Node.js, Express 5, REST APIs |
+| Database | PostgreSQL, Prisma ORM |
+| Authentication | JWT, bcrypt |
+| Authorization | Role-Based Access Control (RBAC) |
+| Cloud | DigitalOcean App Platform, Managed PostgreSQL |
+| Object Storage | DigitalOcean Spaces — provisioned |
+| Testing | Node.js native test runner |
+| Development Tools | Git, GitHub, Cursor, ChatGPT |
 
-My responsibilities include:
+## System Architecture
 
-- Software and system architecture
-- Database architecture and data modeling
-- Backend and REST API development
-- Frontend development
-- Authentication and authorization
-- Business rules and validation
-- Database migrations
-- Automated testing
-- Application security
-- Docker and development environments
-- Debugging and troubleshooting
-- UI/UX implementation
-- Technical documentation
-- Web and mobile application architecture
-- Application maintenance and evolution
+The application follows a client-server architecture with a modular backend and a Vue-based frontend.
 
-The operational requirements and domain knowledge are developed in collaboration with Remar Brasil, while the technical architecture, implementation, integration, testing, and evolution of the software are under my responsibility.
+**Frontend**
+- Single-page application built with Vue 3 and Quasar
+- Reusable interface components and routed pages
+- API communication through a centralized request utility
+- Permission-aware navigation and workflows
 
----
+**Backend**
+- REST API built with Node.js and Express
+- Routes, controllers, and services
+- Prisma-based database access
+- Authentication and authorization middleware
+- Business rules for institutional operations
 
-## 🛠️ Technology Stack
+**Database**
+- PostgreSQL relational database
+- Prisma schema and migrations
+- Structured relationships between operational entities
+- Migration from an earlier SQLite-based implementation
 
-### Frontend
-`Vue 3` • `Quasar` • `JavaScript` • `Vite`
+## MVP 1 — Core Platform
 
-### Backend
-`Node.js` • `Express` • `REST APIs` • `JWT`
+The implemented application includes functionality for:
 
-### Database
-`PostgreSQL` • `Prisma ORM`
+- People receiving care and their institutional records
+- Admissions and care history
+- Transfers between organizational units
+- Documents and contact information
+- Organizational units and capacity management
+- Health-related records and change history
+- Events and operational activities
+- Users, roles, and permissions
+- Dashboard indicators and operational visibility
 
-### Engineering & Infrastructure
-`Docker` • `Git` • `GitHub` • `Automated Testing`
+These modules form the foundation of the platform's institutional management workflows.
 
-### Platforms
-`Web` • `Android` • `iOS`
+## Cloud Infrastructure
 
----
+The production environment is hosted on DigitalOcean and includes:
 
-## 🏗️ Architecture
+- **App Platform:** Application deployment environment
+- **Managed PostgreSQL 17:** Managed relational database
+- **Spaces:** Provisioned object storage for the platform's storage architecture
 
-REMAR Acolhimento uses a modern full-stack architecture:
+The application continues to evolve through ongoing development and deployment activities.
 
-**Web / Android / iOS**  
-↓  
-**Vue 3 + Quasar**  
-↓  
-**REST API**  
-↓  
-**Node.js + Express**  
-↓  
-**Prisma ORM**  
-↓  
-**PostgreSQL**
+## Security and Access Control
 
-The project also includes authentication, authorization, business-rule validation, automated testing, database migrations, and application security considerations.
+Security is a core engineering consideration because the platform handles sensitive institutional information.
 
-Detailed architecture diagrams and technical documentation will be added to this repository as the case study evolves.
+Implemented controls include:
 
----
-
-## 🧠 Engineering Highlights
-
-Some of the engineering areas being documented include:
-
-- Full-stack application architecture
-- Relational database design
-- SQLite → PostgreSQL migration
-- REST API architecture
-- Authentication and authorization
+- JWT-based authentication
+- Password hashing with bcrypt
 - Role-based access control
-- Automated testing and regression prevention
-- Security and sensitive-data protection
-- Multi-platform Web / Android / iOS strategy
-- Docker-based development environments
-- Maintainability and application evolution
+- Permission checks in backend requests
+- Access restrictions based on organizational responsibilities
+- Authenticated access to protected application resources
 
----
+This case study does not disclose private records, credentials, or confidential implementation details.
 
-## 🤖 AI-Assisted Development
+## Database Engineering
 
-The project uses an AI-assisted software engineering workflow.
+The project evolved from SQLite to PostgreSQL to support its relational data model and cloud deployment architecture.
 
-I make extensive use of **Cursor and ChatGPT** for code generation, technical analysis, debugging, refactoring, testing, and documentation.
+Database engineering work includes schema modeling, entity relationships, migrations, and integration with Prisma ORM.
 
-These tools are used to accelerate development while I remain responsible for requirements, architecture, technical decisions, implementation direction, code review, integration, testing, validation, troubleshooting, and the overall behavior of the platform.
+## Automated Testing
 
----
+The backend includes an automated test suite using Node.js native testing capabilities.
 
-## 📚 Case Study
+Testing focuses on application behavior, business rules, and backend functionality. Test coverage and execution results are maintained as part of the development process.
 
-This repository will progressively document:
+## MVP 2 — Product Evolution
 
-- System architecture
-- Application functionality
-- Backend and API design
-- Frontend architecture
-- Database architecture
-- Security and access control
-- Testing strategy
-- Engineering challenges and solutions
-- Database migration
-- Technical decisions
-- Application workflows
-- Architecture diagrams
-- Web and mobile mockups
-- Lessons learned
+The next phase of the product extends the foundation established by MVP 1.
 
----
+The engineering roadmap includes additional operational workflows, reporting capabilities, auditing, privacy-related improvements, and further refinement of existing modules.
 
-## 🔒 Privacy & Source Code
+Features in this section represent the product evolution roadmap unless separately documented as implemented.
 
-The production source code for REMAR Acolhimento is **not included in this repository**.
+## Android and iOS — Mobile Roadmap
 
-This repository contains only documentation and demonstration material suitable for a public technical portfolio.
+The product's multiplatform strategy includes future Android and iOS experiences.
 
-No production credentials, confidential organizational information, or real personal data will be published.
+The existing Vue and Quasar technology stack provides a foundation for evaluating mobile delivery approaches. Native mobile packaging, platform-specific capabilities, and distribution will be documented as they are implemented.
 
-Screenshots and mockups published here will use **fictional demonstration data**.
+## Engineering Highlights
 
----
+This project demonstrates practical experience with:
 
-## 🌎 Documentation
-
-🇺🇸 **English** — Primary documentation  
-🇧🇷 **Português** — Portuguese documentation will also be available
-
----
-
-## About the Developer
-
-**Bruno Arcoverde Diniz**  
-Software Engineer | Sole Full-Stack Developer
-
-My background combines modern full-stack software engineering with enterprise experience in systems, production operations, incident management, security & compliance, and technology product leadership.
-
----
-
-> 🚧 **REMAR Acolhimento is currently under active development.**  
-> This case study will evolve alongside the platform.
+- End-to-end ownership of a full-stack product
+- Translating institutional workflows into software
+- Designing and evolving relational data models
+- Implementing authorization across application layers
+- Managing complex
