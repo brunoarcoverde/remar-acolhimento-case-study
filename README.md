@@ -175,6 +175,103 @@ Additional architecture diagrams, engineering decisions, feature walkthroughs, a
 
 The objective is to communicate the technical scope, design decisions, and engineering challenges without exposing proprietary source code or sensitive information.
 
+
+## User Interface Gallery
+
+The following images are conceptual UI mockups illustrating REMAR Acolhimento's workflows, information architecture, and user experience. They are not production screenshots. Some mockups depict proposed features or enhancements that are not yet implemented.
+
+### Dashboard
+
+Operational overview with key indicators and visual summaries.
+
+![REMAR Dashboard](assets/mockups/remar-dashboard-mockup.png)
+
+### Dashboard — Alternative View
+
+Additional dashboard visualization.
+
+![REMAR Dashboard Alternative](assets/mockups/remar-dashboard2.png)
+
+### Resident Management
+
+Centralized view for managing residents and their records.
+
+![Resident Management](assets/mockups/remar-gestao-acolhidos.png)
+
+### Resident Details
+
+Individual resident profile and related information.
+
+![Resident Details](assets/mockups/remar-detalhes-acolhido-mockup.png.png)
+
+### Documents
+
+Document information associated with resident records.
+
+![Resident Documents](assets/mockups/remar-documentos-mockup.png)
+
+### Contacts
+
+Reference contacts and relationship information.
+
+![Resident Contacts](assets/mockups/remar-contatos-mockup.png)
+
+### Admissions and Transfers
+
+Resident admission history and transfers between units.
+
+![Admissions and Transfers](assets/mockups/remar-internacoes-transferencias-mockup.png)
+
+### Events and Occurrences
+
+Registration and tracking of events and occurrences.
+
+![Events and Occurrences](assets/mockups/remar-eventos-ocorrencias-mockup.png)
+
+### Health Records
+
+Health-related information and care history.
+
+![Health Records](assets/mockups/remar-saude-mockup.png)
+
+### Legal Records
+
+Legal assistance records and follow-up activities.
+
+![Legal Records](assets/mockups/remar-juridico-mockup.png)
+
+### Shelter Units
+
+Management of shelter units and their operational information.
+
+![Shelter Units](assets/mockups/remar-unidades-mockup.png)
+
+### Users and Permissions
+
+User administration and role-based access control.
+
+![Users and Permissions](assets/mockups/remar-usuarios-permissoes-mockup.png.png)
+
+### System Settings
+
+System configuration and access-profile visualization.
+
+![System Settings](assets/mockups/remar-configs-sistema.png)
+
+### Change History — Planned Feature
+
+Conceptual interface for a dedicated audit and change-history page. This standalone page is planned and should not be interpreted as an already implemented feature.
+
+![Planned Change History](assets/mockups/remar-historico-alteracoes.png)
+
+### PDF Record Generator
+
+Configuration and preview of a resident's PDF record.
+
+![PDF Record Generator](assets/mockups/remar-gerador-ficha-PDF.png)
+
+
+
 ## Privacy and Source Code
 
 REMAR Acolhimento is developed for Associação Remar do Brasil.
