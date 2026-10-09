@@ -18,6 +18,15 @@ The platform centralizes operational information, improves traceability, and pro
 
 This repository presents a technical case study of the engineering work behind the platform. The application source code is proprietary and is not published here.
 
+## Technical Documentation
+
+Explore the system architecture, technical decisions, and infrastructure:
+
+- **[System Architecture — English](docs/en/architecture.md)**
+- **[Arquitetura do Sistema — Português](docs/pt-BR/arquitetura.md)**
+
+The documentation covers frontend and backend architecture, database engineering, authentication, authorization, cloud infrastructure, testing, and product evolution.
+
 ## My Role
 
 I am the sole human full-stack developer responsible for the platform's software engineering, including:
@@ -69,6 +78,8 @@ The application follows a client-server architecture with a modular backend and 
 - Prisma schema and migrations
 - Structured relationships between operational entities
 - Migration from an earlier SQLite-based implementation
+
+**[View the complete system architecture →](docs/en/architecture.md)**
 
 ## MVP 1 — Core Platform
 
@@ -145,4 +156,36 @@ This project demonstrates practical experience with:
 - Translating institutional workflows into software
 - Designing and evolving relational data models
 - Implementing authorization across application layers
-- Managing complex
+- Managing complex, interconnected business entities
+- Migrating database technologies
+- Preparing and operating cloud infrastructure
+- Building automated backend tests
+- Using AI-assisted tools in a human-directed engineering process
+
+## Case Study and Documentation
+
+This repository provides technical documentation covering the architecture, infrastructure, security model, database engineering, and evolution of a real-world software platform.
+
+**Available documentation:**
+
+- [System Architecture (English)](docs/en/architecture.md)
+- [Arquitetura do Sistema (Português)](docs/pt-BR/arquitetura.md)
+
+Additional architecture diagrams, engineering decisions, feature walkthroughs, and demonstrations using fictional data can be added as the case study evolves.
+
+The objective is to communicate the technical scope, design decisions, and engineering challenges without exposing proprietary source code or sensitive information.
+
+## Privacy and Source Code
+
+REMAR Acolhimento is developed for Associação Remar do Brasil.
+
+The application source code, production configuration, and institutional data are not included in this public repository. All demonstrations and screenshots should use fictional or appropriately sanitized information.
+
+## Developer
+
+**Bruno Arcoverde Diniz**  
+Software Engineer | Full-Stack & Enterprise Systems
+
+Experience spanning enterprise IT environments, backend engineering, relational databases, operational systems, and modern full-stack application development.
+
+[GitHub Profile](https://github.com/brunoarcoverde)
