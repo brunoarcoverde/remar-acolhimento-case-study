@@ -18,6 +18,15 @@ A plataforma centraliza informações operacionais, melhora a rastreabilidade e 
 
 Este repositório apresenta um estudo de caso técnico do trabalho de engenharia realizado na plataforma. O código-fonte da aplicação é proprietário e não está publicado aqui.
 
+## Documentação Técnica
+
+Explore a arquitetura do sistema, as decisões técnicas e a infraestrutura:
+
+- **[Arquitetura do Sistema — Português](docs/pt-BR/arquitetura.md)**
+- **[System Architecture — English](docs/en/architecture.md)**
+
+A documentação aborda arquitetura frontend e backend, engenharia de banco de dados, autenticação, autorização, infraestrutura em nuvem, testes e evolução do produto.
+
 ## Minha Atuação
 
 Sou o único desenvolvedor humano full-stack responsável pela engenharia de software da plataforma, incluindo:
@@ -69,6 +78,8 @@ A aplicação utiliza uma arquitetura cliente-servidor, com backend modular e fr
 - Esquema Prisma e migrações
 - Relacionamentos estruturados entre entidades operacionais
 - Migração de uma implementação anterior baseada em SQLite
+
+**[Visualizar a documentação completa da arquitetura →](docs/pt-BR/arquitetura.md)**
 
 ## MVP 1 — Plataforma Principal
 
@@ -153,7 +164,14 @@ Este projeto demonstra experiência prática em:
 
 ## Estudo de Caso e Documentação
 
-Este repositório foi estruturado para se tornar um portfólio de engenharia contendo diagramas de arquitetura, decisões de implementação, demonstrações de funcionalidades, documentação de infraestrutura e exemplos utilizando dados fictícios.
+Este repositório apresenta documentação técnica sobre a arquitetura, infraestrutura, segurança, engenharia de banco de dados e evolução de uma plataforma de software real.
+
+**Documentação disponível:**
+
+- [Arquitetura do Sistema (Português)](docs/pt-BR/arquitetura.md)
+- [System Architecture (English)](docs/en/architecture.md)
+
+Novos diagramas de arquitetura, decisões de engenharia, demonstrações de funcionalidades e exemplos utilizando dados fictícios poderão ser adicionados conforme o estudo de caso evoluir.
 
 O objetivo é comunicar o escopo técnico, as decisões de projeto e os desafios de engenharia de uma plataforma real, sem expor código-fonte proprietário ou informações sensíveis.
 
