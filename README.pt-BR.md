@@ -175,6 +175,104 @@ Novos diagramas de arquitetura, decisões de engenharia, demonstrações de func
 
 O objetivo é comunicar o escopo técnico, as decisões de projeto e os desafios de engenharia de uma plataforma real, sem expor código-fonte proprietário ou informações sensíveis.
 
+
+## Galeria de Interfaces do Sistema
+
+As imagens abaixo são mockups conceituais da interface do REMAR Acolhimento, desenvolvidos para apresentar os fluxos operacionais, a organização das informações e a experiência de uso da plataforma.
+
+As imagens não são capturas diretas do ambiente de produção. Algumas representam melhorias e funcionalidades planejadas, ainda não implementadas.
+
+### Dashboard — Visão Geral
+
+Painel com indicadores operacionais e informações consolidadas sobre os acolhimentos.
+
+![Dashboard do REMAR](assets/mockups/remar-dashboard-mockup.png)
+
+### Dashboard — Visão Alternativa
+
+Representação adicional dos indicadores e gráficos do sistema.
+
+![Dashboard alternativo](assets/mockups/remar-dashboard2.png)
+
+### Gestão de Acolhidos
+
+Interface para consulta e gerenciamento dos registros de pessoas acolhidas.
+
+![Gestão de Acolhidos](assets/mockups/remar-gestao-acolhidos.png)
+
+### Detalhes do Acolhido
+
+Ficha individual com informações cadastrais e acesso aos módulos relacionados.
+
+![Detalhes do Acolhido](assets/mockups/remar-detalhes-acolhido-mockup.png.png)
+
+### Documentos
+
+Consulta e organização de informações documentais dos acolhidos.
+
+![Documentos do Acolhido](assets/mockups/remar-documentos-mockup.png)
+
+### Contatos
+
+Cadastro e acompanhamento dos contatos de referência.
+
+![Contatos do Acolhido](assets/mockups/remar-contatos-mockup.png)
+
+### Internações e Transferências
+
+Histórico de acolhimentos, internações e transferências entre unidades.
+
+![Internações e Transferências](assets/mockups/remar-internacoes-transferencias-mockup.png)
+
+### Eventos e Ocorrências
+
+Registro e acompanhamento de eventos e ocorrências relacionados aos acolhidos.
+
+![Eventos e Ocorrências](assets/mockups/remar-eventos-ocorrencias-mockup.png)
+
+### Saúde do Acolhido
+
+Informações de saúde, atendimentos e histórico de acompanhamento.
+
+![Saúde do Acolhido](assets/mockups/remar-saude-mockup.png)
+
+### Jurídico do Acolhido
+
+Registros jurídicos, orientações, processos e acompanhamentos.
+
+![Jurídico do Acolhido](assets/mockups/remar-juridico-mockup.png)
+
+### Gestão de Unidades
+
+Administração das unidades de acolhimento e suas informações operacionais.
+
+![Gestão de Unidades](assets/mockups/remar-unidades-mockup.png)
+
+### Usuários e Permissões
+
+Administração de usuários e visualização dos níveis de acesso por perfil (RBAC).
+
+![Usuários e Permissões](assets/mockups/remar-usuarios-permissoes-mockup.png.png)
+
+### Configurações do Sistema
+
+Configurações estruturais e consulta de perfis e permissões.
+
+![Configurações do Sistema](assets/mockups/remar-configs-sistema.png)
+
+### Histórico de Alterações — Funcionalidade Planejada
+
+Representação conceitual de uma página dedicada à auditoria e ao histórico de alterações do sistema. Esta interface específica está planejada e não deve ser interpretada como uma funcionalidade já implementada.
+
+![Histórico de Alterações](assets/mockups/remar-historico-alteracoes.png)
+
+### Gerador de Ficha PDF
+
+Interface de configuração e pré-visualização da ficha do acolhido em PDF.
+
+![Gerador de Ficha PDF](assets/mockups/remar-gerador-ficha-PDF.png)
+
+
 ## Privacidade e Código-Fonte
 
 O REMAR Acolhimento é desenvolvido para a Associação Remar do Brasil.
